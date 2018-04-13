@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @RequestMapping("/hej")
+    @RequestMapping("/czesc")
     public String index() {
         return "pozdrawiam Jawegiel";
     }
